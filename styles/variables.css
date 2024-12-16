@@ -21,7 +21,6 @@
     repeating-linear-gradient(to bottom, transparent 0px 2px, var(--background-gradint-dot-color) 2px 4px), 
     linear-gradient(var(--background-gradint-darkening-1), var(--background-gradint-darkening-2));
   --background-color: white;
-
   --heart-icon__contour-color: #000;
   --heart-icon__body-color: #FF0000;
 }
