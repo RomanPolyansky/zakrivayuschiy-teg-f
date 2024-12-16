@@ -12,26 +12,27 @@
   --color-background: #FFF;
   --color-accent: #000;
   --dialog-width: 353px;
-  --header-block-paddings: 128px;  
+  --header-block-paddings: 128px;
   --background-gradint-dot-color: #d3d3d3;
   --background-gradint-darkening-1: #e7e7e7;
   --background-gradint-darkening-2: #1a1a1a;
-  --background-image: 
+  --background-image:
     repeating-linear-gradient(to right, transparent 0px 2px, var(--background-gradint-dot-color) 2px 4px),
-    repeating-linear-gradient(to bottom, transparent 0px 2px, var(--background-gradint-dot-color) 2px 4px), 
+    repeating-linear-gradient(to bottom, transparent 0px 2px, var(--background-gradint-dot-color) 2px 4px),
     linear-gradient(var(--background-gradint-darkening-1), var(--background-gradint-darkening-2));
   --background-color: white;
   --heart-icon__contour-color: #000;
   --heart-icon__body-color: #FF0000;
 }
 
-@media (width <= 375px) {
+@media (width <=375px) {
   :root {
     --max-width: 375px;
     --dialog-width: 341px;
   }
 
   .header {
-    --header-block-paddings: 120px; /* меняется от размера экрана */
+    --header-block-paddings: 120px;
+    /* меняется от размера экрана */
   }
 }
