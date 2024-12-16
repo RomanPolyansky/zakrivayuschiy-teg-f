@@ -7,7 +7,7 @@
   --wght-body: 400;
   --border-style: solid 2px var(--color-accent);
   --content-width: clamp(var(--min-width), 100vw, var(--max-width));
-  --max-width: 696px;
+  --max-width: 700px;
   --min-width: 375px;
   --color-background: #FFF;
   --color-accent: #000;
