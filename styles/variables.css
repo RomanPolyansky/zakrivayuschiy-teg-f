@@ -1,17 +1,17 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 
 :root {
-  --font-main: 'Inter-Variable';
-  --font-accent: 'PressStart2P';
+  --font-main: 'Inter-Variable', sans-serif;
+  --font-accent: 'PressStart2P', fantasy;
   --wght-heading: 700;
   --wght-body: 400;
   --border-style: solid 2px var(--color-accent);
-  --content-width: clamp(var(--min-width), 100vw, var(--max-width));
+  --content-width: clamp(var(--min-width), 100%, var(--max-width));
   --max-width: 700px;
-  --min-width: 375px;
+  --min-width: 325px;
   --color-background: #FFF;
   --color-accent: #000;
-  --dialog-width: 353px;
+  --dialog-width: 359px;
   --header-block-paddings: 128px;
   --background-gradint-dot-color: #d3d3d3;
   --background-gradint-darkening-1: #e7e7e7;
@@ -32,7 +32,6 @@
   }
 
   .header {
-    --header-block-paddings: 120px;
-    /* меняется от размера экрана */
+    --header-block-paddings: 120px; /* меняется от размера экрана */
   }
 }
