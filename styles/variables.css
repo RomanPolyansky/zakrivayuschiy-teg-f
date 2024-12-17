@@ -28,7 +28,7 @@
 @media (width <=375px) {
   :root {
     --max-width: 375px;
-    --dialog-width: 341px;
+    --dialog-width: 345px;
   }
 
   .header {

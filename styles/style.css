@@ -143,7 +143,7 @@
   border-color: transparent;
   padding: 0;
   background: none;
-  transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease;
 }
 
 .card__icon-button:focus {
@@ -152,7 +152,6 @@
 
 .card__icon-button:focus-visible {
   border-color: var(--color-accent);
-  transition: border-color 0.3s ease-in-out;
 }
 
 .like-icon .main-body {
@@ -197,7 +196,7 @@
   /* закрашивается основное тело */
   opacity: 1;
   fill: var(--heart-icon__body-color);
-  transition: fill 0.3s, opacity 0.3s 0.05s linear;
+  transition: fill 0.3s linear, opacity 0.3s 0.05s linear;
 }
 
 .like-icon.is-liked .core {
@@ -242,7 +241,7 @@
   line-height: 90%;
   background: none;
   background-color: var(--background-color);
-  transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease;
   block-size: 100%;
 }
 
@@ -252,7 +251,6 @@
 
 .button:focus-visible {
   box-shadow: 2px 2px var(--color-accent);
-  transition: box-shadow 0.3s ease-in-out;
 }
 
 .button:hover::before {
@@ -310,9 +308,8 @@
   align-items: center;
   row-gap: 30px;
   column-gap: 20px;
-  padding-inline: 30px;
-  /* меняется от размера экрана */
   padding-block: 30px;
+  padding-inline: 30px;
   inline-size: var(--dialog-width);
 }
 
@@ -373,7 +370,7 @@
 
 @media (width <=375px) {
   .save-dialog[open] {
-    padding-inline: 38px;
+    padding-inline: 42px;
   }
 
   .save__button {
